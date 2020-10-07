@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c12681ad667b4670e55f110ac8b778a4",
+    "content-hash": "0acbef2e79e975ecc2de5c2b9492c9cf",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -530,17 +530,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/matomo-php-tracker.git",
-                "reference": "e4c6829b2f330f088055aa8341e5f205d1ec1cc7"
+                "reference": "a7fd79ddc54be6bb5abcc69d43836302697c71ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/matomo-php-tracker/zipball/e4c6829b2f330f088055aa8341e5f205d1ec1cc7",
-                "reference": "e4c6829b2f330f088055aa8341e5f205d1ec1cc7",
+                "url": "https://api.github.com/repos/matomo-org/matomo-php-tracker/zipball/a7fd79ddc54be6bb5abcc69d43836302697c71ea",
+                "reference": "a7fd79ddc54be6bb5abcc69d43836302697c71ea",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
             },
             "suggest": {
                 "ext-curl": "Using this extension to issue the HTTPS request to Matomo"
@@ -570,20 +573,20 @@
                 "piwik",
                 "tracker"
             ],
-            "time": "2020-07-27T20:23:33+00:00"
+            "time": "2020-09-07T04:45:54+00:00"
         },
         {
             "name": "matomo/network",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/component-network.git",
-                "reference": "010e49629115e7227bec08c39639e0efeb048905"
+                "reference": "ff654b8fc7778b80279815d06a368f7b41249501"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/component-network/zipball/010e49629115e7227bec08c39639e0efeb048905",
-                "reference": "010e49629115e7227bec08c39639e0efeb048905",
+                "url": "https://api.github.com/repos/matomo-org/component-network/zipball/ff654b8fc7778b80279815d06a368f7b41249501",
+                "reference": "ff654b8fc7778b80279815d06a368f7b41249501",
                 "shasum": ""
             },
             "require": {
@@ -602,7 +605,7 @@
             "license": [
                 "LGPL-3.0"
             ],
-            "time": "2020-01-01T12:57:48+00:00"
+            "time": "2020-10-05T06:09:39+00:00"
         },
         {
             "name": "matomo/referrer-spam-list",
